@@ -48,7 +48,7 @@ flowchart TD
 
 | Area | Technology |
 | --- | --- |
-| Backend | Java 21, Spring Boot 3, Maven |
+| Backend | Java 21, Spring Boot 4, Maven |
 | LLM integration | Spring `RestClient`, calling Ollama directly |
 | Local model | `qwen3:4b-instruct`, running on CPU |
 | Document generation | Claude Code, LaTeX, Tectonic |
