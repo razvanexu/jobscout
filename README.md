@@ -83,8 +83,8 @@ ssh -L 11434:localhost:11434 <homelab-host>
 
 ## Roadmap
 
-- [ ] **0. Alerts:** dedicated mailbox and job alerts, to collect real data
-- [ ] **1. Matcher:** `JobMatchResult`, `JobMatcher`, `OllamaJobMatcher`, `POST /api/match`
+- [x] **0. Alerts:** dedicated mailbox and job alerts, to collect real data
+- [x] **1. Matcher:** `JobMatchResult`, `JobMatcher`, `OllamaJobMatcher`, `POST /api/match`
 - [ ] **2. Profile:** add my CV profile to the prompt
 - [ ] **3. Persistence:** storage and deduplication
 - [ ] **4. Sources:** IMAP alerts, public ATS APIs, manual add
