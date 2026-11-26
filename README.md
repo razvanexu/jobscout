@@ -54,6 +54,8 @@ flowchart TD
 | Document generation | Claude Code, LaTeX, Tectonic |
 | Infrastructure | Debian 13, Docker, systemd timers |
 | Delivery and remote access | Syncthing, Tailscale |
+| Persistence | PostgreSQL, Spring Data JPA, Flyway |
+| Testing | JUnit 5, Mockito, MockMvc, MockRestServiceServer, Testcontainers |
 
 ## Performance
 
@@ -86,7 +88,7 @@ ssh -L 11434:localhost:11434 <homelab-host>
 - [x] **0. Alerts:** dedicated mailbox and job alerts, to collect real data
 - [x] **1. Matcher:** `JobMatchResult`, `JobMatcher`, `OllamaJobMatcher`, `POST /api/match`
 - [x] **2. Profile:** add my CV profile to the prompt
-- [ ] **3. Persistence:** storage and deduplication
+- [x] **3. Persistence:** storage and deduplication
 - [ ] **4. Sources:** IMAP alerts, public ATS APIs, manual add
 - [ ] **5. Applications:** briefs, headless CV tailoring, Syncthing delivery
 - [ ] **6. Deployment:** run the full application in Docker on the home server
