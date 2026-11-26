@@ -2,9 +2,11 @@ package ro.cloudavenue.jobscout;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
-class BackendApplicationTests {
+@TestPropertySource(properties = "jobscout.profile-path=classpath:test-profile.md")
+class JobScoutApplicationTests {
 
     @Test
     void contextLoads() {
