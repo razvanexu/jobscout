@@ -85,7 +85,7 @@ ssh -L 11434:localhost:11434 <homelab-host>
 
 - [x] **0. Alerts:** dedicated mailbox and job alerts, to collect real data
 - [x] **1. Matcher:** `JobMatchResult`, `JobMatcher`, `OllamaJobMatcher`, `POST /api/match`
-- [ ] **2. Profile:** add my CV profile to the prompt
+- [x] **2. Profile:** add my CV profile to the prompt
 - [ ] **3. Persistence:** storage and deduplication
 - [ ] **4. Sources:** IMAP alerts, public ATS APIs, manual add
 - [ ] **5. Applications:** briefs, headless CV tailoring, Syncthing delivery
