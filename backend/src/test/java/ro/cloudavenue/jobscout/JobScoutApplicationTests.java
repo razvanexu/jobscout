@@ -7,7 +7,7 @@ import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
 @TestPropertySource(properties = "jobscout.profile-path=classpath:test-profile.md")
-@Import(TestcontainersConfiguration.class)
+@Import(PostgresTestConfiguration.class)
 class JobScoutApplicationTests {
 
     @Test

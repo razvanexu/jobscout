@@ -45,6 +45,7 @@ public class Job {
         this.source = source;
         this.url = url;
         this.description = description;
+        this.createdAt = Instant.now();
     }
 
     public void applyMatch(JobMatchResult result) {
